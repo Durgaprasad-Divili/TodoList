@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(8, 187, 8);
+    height: 4rem;
+}
+header h1{
+    padding:1rem;
+    font-family:cursive;
+
+    }
+
+h3{
+    font-family: cursive;
+}
+
+#todo-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.todoItemDiv{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 0px 10px 0px 10px;
+}
+.completionBtn{
+    padding: 1px 3px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.deleteBtn{
+    padding: 1px 3px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+.todoItemh1{
+    
+}
+.completionDeletionParentDiv{
+    display: flex;
+    gap: 10px;
+}
